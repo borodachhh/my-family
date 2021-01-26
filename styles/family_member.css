@@ -1,0 +1,13 @@
+.heading__avatar {
+  height: 150px;
+  width: 150px;
+  background-color: #1d1d1d;
+  border-radius: 0.8rem;
+  background-size: cover;
+  background-position: center center;
+}
+
+.heading__name {
+  font-size: 2rem;
+  margin-left: 1rem;
+}

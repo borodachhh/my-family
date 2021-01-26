@@ -1,0 +1,22 @@
+.navbar {
+  background-color: #F4F4F4;
+  /* border-radius: 0 0 0.5rem 0.5rem; */
+  border-radius: 0.5rem;
+}
+
+.navbar__link {
+  font-size: 1.2em;
+  /* border-radius: 0 0 0.5rem 0.5rem; */
+  border-radius: 0.5rem;
+
+}
+
+.navbar__link:hover {
+  background-color: #e1e1e1;
+}
+
+
+.navbar__link.active {
+  background-color: #1D1D1D;
+  color: #F4F4F4;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Family</title>
+    <link rel="stylesheet" href="./vendor/destyle.css" />
+    <link rel="stylesheet" href="./vendor/bulma/css/bulma.min.css" />
+    <link rel="stylesheet" href="./styles/navbar.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <script src="./vendor/gsap.min.js"></script>
+  </head>
+  <body>
+
+    <!-- navigation -->
+    <div class="container navbar-wrap pt-5">
+      <nav class="navbar level">
+        <a class="navbar__link active level-item" href="./index.html">Главная</a>
+        <a class="navbar__link level-item" href="./views/father.html">Папа</a>
+        <a class="navbar__link level-item" href="./views/mother.html">Мама</a>
+        <a class="navbar__link level-item" href="./views/sister.html">Сестра</a>
+        <a class="navbar__link level-item" href="./views/brother.html">Брат</a>
+      </nav>
+    </div>
+
+    <!-- content -->
+    <div class="container mt-6">
+      <div class="content level">
+        <h1 class="main-heading part-1 level-left">
+          Привет,
+        </h1>
+        <div class="level-item is-flex-grow-1 px-6">
+          <div class="main-image" style="background-image: url(./assets/family.jpg);"></div>
+        </div>
+        <h1 class="main-heading part-2 level-right">
+          - это моя семья.
+        </h1>
+      </div>
+    </div>
+
+    <script src="./scripts/index.js"></script>
+  </body>
+</html>
